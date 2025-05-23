@@ -56,10 +56,16 @@ body
     background: var(--clr);
     border: 1px solid rgba(0, 0, 0, 0.25);
     opacity: 0;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.3s ease;
 }
 
 .pixel-button:hover .pixel
 {
     opacity: 1;
+    color: #f3106f;
+}
+.pixel-button:hover
+{
+    color: #f3106f; 
+    font-weight: 800;
 }
